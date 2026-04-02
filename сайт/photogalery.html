@@ -1,0 +1,365 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Фотогалерея — Храм Серафима Саровского</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1>Храм Серафима Саровского</a></h1>
+             </div>
+                <ul class="nav-list">
+                    <li><a href="index.html">Назад на главную</a></li>
+                    <li><a href="schedule.html">Православный календарь</a></li>
+                </ul>
+                <div class="social-icons">
+                 <!-- ВКонтакте -->
+                <a href="https://vk.com/club217805089" 
+                     class="social-icon" 
+                    target="_blank"
+                    aria-label="Наша страница ВКонтакте">
+                    <i class="fab fa-vk"></i>
+                </a>
+    
+                <!-- Одноклассники -->
+                 <a href="https://t.me/ваш_канал" 
+                      class="social-icon" 
+                     target="_blank"
+                      aria-label="Наша страничка в одноклассниках">
+                    <i class="fab fa-odnokly"></i>
+                    <img width="20px" src="img/icons/odnoklassniki.png">
+                 </a>
+             </div>  
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <section class="gallery-page">
+            <div class="container">
+                <h2 class="section-title">Фотогалерея</h2>
+                <p class="gallery-description">
+                    Жизнь нашего прихода в фотографиях: богослужения, праздники, 
+                    события и красота храма
+                </p>
+
+                <!-- Фильтры -->
+                <div class="gallery-filters">
+                    <button class="filter-btn active" data-filter="all">Все фото</button>
+                    <button class="filter-btn" data-filter="inside">Внутреннее убранство</button>
+                    <button class="filter-btn" data-filter="holidays">Праздники</button>
+                    <button class="filter-btn" data-filter="events">Богослуженеия</button>
+                    <button class="filter-btn" data-filter="temple">Храм</button>
+                </div>
+
+                <!-- Сетка галереи -->
+                <div class="gallery-grid">
+                    <!-- Богослужения -->
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img/pictures/summerchurch.jpg" alt="Храм снаружи в летний сезон">
+                        <div class="gallery-overlay">
+                           
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img/pictures/winterchurch.jpg" alt="Всенощное бдение">
+                        <div class="gallery-overlay">
+                        
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Праздники -->
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img/pictures/wintercurch2jpg.jpg" alt="Пасхальное богослужение">
+                        <div class="gallery-overlay">
+                          
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img/pictures/church-img.jpg" alt="Рождественская служба">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- События -->
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img/pictures/beauty.jpg" alt="Крестный ход">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="inside">
+                        <img src="img/pictures/inside2.jpg" alt="Воскресная школа">
+                        <div class="gallery-overlay">
+                          
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <!-- Храм -->
+                    <div class="gallery-item" data-category="events">
+                        <img src="img/pictures/inside3.jpeg" alt="Фасад храма зимой">
+                        <div class="gallery-overlay">
+                         
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="inside">
+                        <img src="img/pictures/chirchinside.jpg" alt="Внутреннее убранство">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+
+                    <div class="gallery-item" data-category="events">
+                        <img src="img/pictures/papa.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\1.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\3.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\4.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    
+                    <div class="gallery-item" data-category="inside">
+                        <img src="img\pictures\11a3dee5-c422-4eb8-83ec-343c19305580.jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\34e7af9d-8c54-4432-b95c-2902df6d980f (1).jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="inside">
+                        <img src="img\pictures\264ba85e-e114-4e19-a7b9-1b60f76db811.jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\350a1bfd-e870-44f2-ba3f-0f593029cbfc.jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\467de253-4ded-4d6e-800a-17678bb4fb3e.jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\557e6cb2-67c4-4966-9cf8-07e805a0b71e (1).jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\896b533f-0dd1-4466-a5ed-c08be06e2bdd.jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\1024x768--center-cc064cc0680be5100e36d90bc73f5615.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\zdVLo5OxTj4.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\7235cb25-140e-4ccf-94e6-3206705e2afe.jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\AsqsVfRlRtk.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="inside">
+                        <img src="img\pictures\f9XH8dNWEY4wY628093IzE9mh_vvqWUbk3FmAxWmsostz1gavh94q-yjpN17erkbpo6xWAGcy0oga7bloMr2lOQ_.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\fac7795f-a4e3-416f-a087-377a0e720621.jpeg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="holidays">
+                        <img src="img\pictures\IMG_2350 — копия.JPG" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="temple">
+                        <img src="img\pictures\IMG_20241021_134836.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="holidays">
+                        <img src="img\pictures\IMG_20250608_130342.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                    <div class="gallery-item" data-category="inside">
+                        <img src="img\pictures\KITqAaJfGxrGa2j-tlEYW2VuMXFEek_At5o3BDOy0z4sFtRzzh6KhGpBty2lJfQgsCIH2cjrQJiGKKkUcCSxiMeI.jpg" alt="...">
+                        <div class="gallery-overlay">
+                            
+                            <span class="gallery-zoom"><i class="fas fa-search-plus"></i></span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Модальное окно -->
+                <div class="modal" id="imageModal">
+                    <span class="modal-close">&times;</span>
+                    <img class="modal-content" id="modalImage">
+                    <div class="modal-caption" id="modalCaption"></div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> Храм св. прп. Серафима Саровского п. Бисерть, 
+                Ул. Ленина 45. Время работы с 9 до 17 ч.</p>
+            <p class="footer-nav">
+                <a href="index.html">Главная</a> | 
+                <a href="schedule.html">Календарь</a> | 
+                <a href="news.html">Новости</a> |            
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Фильтрация галереи
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const galleryItems = document.querySelectorAll('.gallery-item');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const filterValue = btn.getAttribute('data-filter');
+                
+                galleryItems.forEach(item => {
+                    if (filterValue === 'all' || item.getAttribute('data-category') === filterValue) {
+                        item.style.display = 'block';
+                        setTimeout(() => item.style.opacity = '1', 10);
+                    } else {
+                        item.style.opacity = '0';
+                        setTimeout(() => item.style.display = 'none', 300);
+                    }
+                });
+            });
+        });
+
+        // Модальное окно
+        const modal = document.getElementById('imageModal');
+        const modalImg = document.getElementById('modalImage');
+        const modalCaption = document.getElementById('modalCaption');
+        const closeBtn = document.querySelector('.modal-close');
+
+        document.querySelectorAll('.gallery-item').forEach(item => {
+            item.addEventListener('click', () => {
+                const img = item.querySelector('img');
+                const title = item.querySelector('.gallery-overlay h3')?.innerText || '';
+                const desc = item.querySelector('.gallery-overlay p')?.innerText || '';
+                
+                modal.style.display = 'flex';
+                modalImg.src = img.src;
+                modalCaption.innerHTML = `<h3>${title}</h3><p>${desc}</p>`;
+            });
+        });
+
+        closeBtn.addEventListener('click', () => {
+            modal.style.display = 'none';
+        });
+
+        modal.addEventListener('click', (e) => {
+            if (e.target === modal) {
+                modal.style.display = 'none';
+            }
+        });
+
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape' && modal.style.display === 'flex') {
+                modal.style.display = 'none';
+            }
+        });
+    </script>
+</body>
+</html>
