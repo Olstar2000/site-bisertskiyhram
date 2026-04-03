@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Новости прихода — Храм Серафима Саровского</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=PT+Sans:wght@400;500;600&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="logo">
+                <h1><a href="index.html">Храм Серафима Саровского</a></h1>
+            </div>
+            <div class="header-right">
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="index.html">Назад на главную</a></li>
+                    </ul>
+                </nav>
+                <div class="social-icons">
+                 <!-- ВКонтакте -->
+                <a href="https://vk.com/club217805089" 
+                     class="social-icon" 
+                    target="_blank"
+                    aria-label="Наша страница ВКонтакте">
+                    <i class="fab fa-vk"></i>
+                </a>
+    
+                <!-- Одноклассники -->
+                 <a href="https://t.me/ваш_канал" 
+                      class="social-icon" 
+                     target="_blank"
+                      aria-label="Наша страничка в одноклассниках">
+                    <i class="fab fa-odnokly"></i>
+                    <img width="20px" src="img/icons/odnoklassniki.png">
+                 </a>
+             </div>  
+            </div>
+        </div>
+    </header>
+
+    <main>
+        
+        <section class="news-hero">
+            <div class="container">
+                <h1>Новости прихода</h1>
+                <p>Жизнь нашего храма: события, объявления, поздравления</p>
+            </div>
+        </section>
+
+        <section class="news-page">
+            <div class="container">
+                <!-- Фильтры по категориям -->
+                <div class="news-filters">
+                    <button class="filter-btn active" data-filter="all">Все новости</button>
+                    <button class="filter-btn" data-filter="holiday">Праздники</button>
+                    <button class="filter-btn" data-filter="youth">Молодёжь</button>
+                    <button class="filter-btn" data-filter="social">Социальное служение</button>
+                    <button class="filter-btn" data-filter="children">Детям</button>
+                </div>
+
+                <!-- Сетка новостей -->
+                <div class="news-grid">
+                    
+                    <!-- Новость 1: Престольный праздник (Праздники) -->
+                    <div class="news-card" data-category="holiday">
+                        <div class="news-badge">Праздник</div>
+                        <div class="news-date">
+                            <i class="far fa-calendar-alt"></i> 5 апреля 2026
+                        </div>
+                        <h3 style="color: red" class="news-title">Вербное воскресенье</h3>
+                        <p class="news-excerpt">
+                            5 апреля 2026 года мы будем встречать один из самых светлых праздников: Вход Господень в Иерусалим, или Вербное воскресение. Это торжество открывает дорогу к самой строгой неделе года — Страстной седмице, завершающейся Пасхой.
+
+Полным ходом идёт подготовка к празднику. Делаем букетики из верб . Красиво украшаем, чтобы порадовать прихожан храма.
+Красивые букетики из верб можно взять в храме за пожертвования. Все вырученные средства будут направлены на реставрацию икон.
+                        </p>
+                        <div class="news-footer">
+                            <!-- <span class="news-views"><i class="far fa-eye"></i> 234</span> -->
+                            <a href="https://vk.com/wall-217805089_3641" class="news-readmore">Читать далее →</a>
+                        </div>
+                    </div>
+
+                    <!-- Новость 2: Молодёжная встреча (Молодёжь) -->
+                    <div class="news-card" data-category="social">
+                        <div class="news-badge">Социальное служение</div>
+                        <div class="news-date">
+                            <i class="far fa-calendar-alt"></i> 27 марта 2026
+                        </div>
+                        <h3 class="news-title">Помощь фронту</h3>
+                        <p class="news-excerpt">
+                            Небольшая уральская деревня в Нижнесергинском районе - деревня Старобухарово. Жителей там немного, но и оттуда ушли на фронт мужчины защищать свою Родину, свою деревню, своё мирное небо.
+Есть уже в деревне и погибшие герои специальной военной операции.
+                        </p>
+                        <div class="news-footer">
+                            <!-- <span class="news-views"><i class="far fa-eye"></i> 156</span> -->
+                            <a href="https://vk.com/wall-217805089_3631" class="news-readmore">Читать далее →</a>
+                        </div>
+                    </div>
+
+                    <!-- Новость 3: Акция помощи (Социальное служение) -->
+                    <div class="news-card" data-category="social">
+                        <div class="news-badge">Социальное служение</div>
+                        <div class="news-date">
+                            <i class="far fa-calendar-alt"></i> 26 марта 2026
+                        </div>
+                        <h3 class="news-title">Тыл — это наш фронт. Помогаем вместе!</h3>
+                        <p class="news-excerpt">
+                           Наверное нет такого населённого пункта в нашей стране, где бы жители оставались равнодушными и не помогали фронту.
+
+Вот и в нашем Бисертском округе в селе Киргишаны образовалась инициативная группа сумевшая объединить сельчан и помогать фронту.
+                        </p>
+                        <div class="news-footer">
+                            <!-- <span class="news-views"><i class="far fa-eye"></i> 98</span> -->
+                            <a href="https://vk.com/wall-217805089_3627" class="news-readmore">Читать далее →</a>
+                        </div>
+                    </div>
+
+                    <!-- Новость 4: Воскресная школа (Детям) -->
+                    <div class="news-card" data-category="social">
+                        <div class="news-badge">Социальное служение</div>
+                        <div class="news-date">
+                            <i class="far fa-calendar-alt"></i> 25 марта 2026
+                        </div>
+                        <h3 class="news-title">Работа социального отдела храма</h3>
+                        <p class="news-excerpt">
+                            Друзья, 20 и 21 марта мы провели благотворительную акцию «Корзина доброты», и результат порадовал нас! 🧡
+
+Благодаря отзывчивым жителям нашего муниципального округа нам удалось собрать более 80 кг продуктов длительного хранения.
+Это позволило сформировать 14 полноценных продуктовых наборов, которые совсем скоро мы вручим тем, кто особенно нуждается в поддержке. 80 кг — это не много и не мало. Это то, что мы сделали вместе, и каждый килограмм крупы или пачка печенья — это частичка вашего тепла .
+                        </p>
+                        <div class="news-footer">
+                            <!-- <span class="news-views"><i class="far fa-eye"></i> 120</span> -->
+                            <a href="https://vk.com/wall-217805089_3626" class="news-readmore">Читать далее →</a>
+                        </div>
+                    </div>
+
+                    <!-- Новость 5: Рождественская ёлка (Детям) -->
+                    <div class="news-card" data-category="children">
+                        <div class="news-badge">Дети</div>
+                        <div class="news-date">
+                            <i class="far fa-calendar-alt"></i> 24 марта 2026
+                        </div>
+                        <h3 class="news-title">Эпоха героев и побед</h3>
+                        <p class="news-excerpt">
+                            Единство духа и верность Отечеству в очередной раз продемонстрировали в Бисертском муниципальном округе.
+
+24 марта Бисертский муниципальный округ стал площадкой для важного и глубокого диалога. В рамках проекта «Эпоха героев и побед» прошел межконфессиональный семинар, посвященный гармонизации межнациональных отношений и поддержке наших защитников.
+                        </p>
+                        <div class="news-footer">
+                            <!-- <span class="news-views"><i class="far fa-eye"></i> 187</span> -->
+                            <a href="https://vk.com/wall-217805089_3624" class="news-readmore">Читать далее →</a>
+                        </div>
+                    </div>
+
+                   
+
+            
+
+                <!-- Кнопка "Наверх" -->
+                <div class="back-to-top">
+                    <a href="#" class="btn">↑ Наверх</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; <span id="current-year">2025</span> Храм св. прп. Серафима Саровского п. Бисерть, 
+                Ул. Ленина 45. Время работы с 9 до 17 ч.</p>
+            <p class="footer-nav">
+                <a href="index.html">Главная</a> | 
+                <a href="schedule.html">Православный календарь</a> | 
+                <a href="photogalery.html">Галерея</a> | 
+               
+            </p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script>
+        // Фильтрация новостей
+        const filterBtns = document.querySelectorAll('.filter-btn');
+        const newsCards = document.querySelectorAll('.news-card');
+
+        filterBtns.forEach(btn => {
+            btn.addEventListener('click', () => {
+                filterBtns.forEach(b => b.classList.remove('active'));
+                btn.classList.add('active');
+                
+                const filterValue = btn.getAttribute('data-filter');
+                
+                newsCards.forEach(card => {
+                    if (filterValue === 'all' || card.getAttribute('data-category') === filterValue) {
+                        card.style.display = 'block';
+                        setTimeout(() => card.style.opacity = '1', 10);
+                    } else {
+                        card.style.opacity = '0';
+                        setTimeout(() => card.style.display = 'none', 300);
+                    }
+                });
+            });
+        });
+
+        // Плавная прокрутка кнопки "Наверх"
+        document.querySelector('.back-to-top a').addEventListener('click', function(e) {
+            e.preventDefault();
+            window.scrollTo({ top: 0, behavior: 'smooth' });
+        });
+
+        // Текущий год
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+</html>
